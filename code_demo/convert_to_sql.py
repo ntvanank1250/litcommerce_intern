@@ -1,6 +1,7 @@
 import csv
-import mysql.connector
 from sqlalchemy import null
+import mysql.connector
+
 
 
 def readfilecsv():

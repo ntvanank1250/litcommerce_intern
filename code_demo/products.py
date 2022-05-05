@@ -5,7 +5,6 @@ import shopify
 import requests
 
 shop_url = "https://%s:%s@hieuduy.myshopify.com/admin/api/2022-04/" % ('dad4dcdbd9cd059f260a5e8f09a55634', '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')
-shopify.ShopifyResource.set_site(shop_url)
 # get all products
 def get_products():
     endpoint= 'products.json'
